@@ -30,7 +30,7 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
 }
 .p-top{
   color: hsl(218, 22%, 67%);
-  line-height: 1;
+  line-height: 1.5;
 }
 /**************** Left Section **************/
 .left-sec{
@@ -91,10 +91,10 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
   padding: 1rem 5.4rem 0.5rem 3.38rem;
 }
 /************ Mobile viw *************/
-@media (max-width: 375px){
+@media (min-width: 375px){
   *{
     box-sizing:border-box;
-    
+
   }
   h1{
     font-size:18px;
@@ -102,7 +102,7 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
   h2{
     font-size:16.5px;
   }
- 
+
   p{
     font-size: 15px;
   }
@@ -131,7 +131,7 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
     width: 100%;
   }
   .right-sec{
-    border-bottom-left-radius: 0.5rem; 
+    border-bottom-left-radius: 0.5rem;
     padding: 10px 10px 10px 25px;
     position:relative;
     top: 0px;
@@ -139,3 +139,4 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
     width: 100%;
   }
 }
+
