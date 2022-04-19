@@ -91,7 +91,7 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
   padding: 0.5rem 5.45rem 0rem 3.38rem;
 }
 /************ Mobile viw *************/
-@media (min-width: 375px) and (max-width: 400px){
+@media (max-width: 400px){
   *{
     box-sizing:border-box;
 
@@ -107,7 +107,7 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
     font-size: 15px;
   }
   .container{
-    margin: 30px 15px 30px 20px;
+    margin: 45px auto;
     height: auto;
     width: 315px;
 
