@@ -30,7 +30,7 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
 }
 .p-top{
   color: hsl(218, 22%, 67%);
-  line-height: 1.35;
+  line-height: 1.4;
 }
 /**************** Left Section **************/
 .left-sec{
@@ -100,17 +100,20 @@ padding:  1.5rem 5rem 1.7rem 3.35rem;
     font-size:18px;
   }
   h2{
-    font-size:16.5px;
+    font-size:16px;
   }
 
   p{
-    font-size: 15px;
+    font-size: 14px;
   }
   .container{
     margin: 45px auto;
     height: auto;
     width: 315px;
 
+  }
+  .mob-br-hidden{
+    display: none;
   }
   .p-top{
     line-height: 1.6;
